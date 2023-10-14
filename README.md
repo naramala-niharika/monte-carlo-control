@@ -58,12 +58,11 @@ def mc_control(env, gamma=1.0, init_alpha=0.5, min_alpha=0.01, alpha_decay_ratio
         Q_track.append(Q.copy())
         pi_track.append(pi.copy)
     return Q, V, pi, Q_track, pi_track
-
 ```
-## OUTPUT:
 
-![Output_1](https://github.com/naramala-niharika/monte-carlo-control/assets/94165377/64acaca8-c992-4a39-a3fe-88145a5c2089)
+## OUTPUT:
+![275224973-64acaca8-c992-4a39-a3fe-88145a5c2089](https://github.com/AavulaTharun/monte-carlo-control/assets/93427201/88f854cc-1e9d-4b88-9ff0-8e9e872d5a67)
+
 
 ## RESULT:
 Monte Carlo Control successfully learned an optimal policy for the specified environment.
-
